@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class Restaurant {
@@ -18,7 +17,7 @@ public class Restaurant {
     public void printMenu() {
         // need to format the output
 
-        for (MenuItem menuItem: menuItems) {
+        for (MenuItem menuItem : menuItems) {
             System.out.println(menuItem);
         }
     }

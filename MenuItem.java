@@ -35,6 +35,6 @@ public class MenuItem {
 
     @Override
     public String toString() {
-        return  menuItem + " "+ price + " "+ description;
+        return menuItem + " " + price + " " + description;
     }
 }
